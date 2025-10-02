@@ -25,9 +25,9 @@ This is a set of bash scripts and [Ansible](https://www.ansible.com/) roles for 
 
 ### 🧰 Other tools
 There are some other bits in here, mainly:
-* [ce-contrib-tools](https://github.com/codeenigma/ce-contrib-tools) - some bash scripts to make managing our [Git](https://git-scm.com/) workflow easier
-* [ce-lightsail-launcher](https://github.com/codeenigma/ce-lightsail-launcher) - a pre-prepared [cloud-init](https://cloud-init.io/) script for quickly deploying applications to [AWS Lightsail](https://aws.amazon.com/lightsail/) servers
-* [ce-provision-templates](https://github.com/codeenigma/ce-provision-templates) - a growing collection of example Ansible variables for different `ce-provision` servers and infras
+* [ce-contrib-tools](https://gitlab.com/code-enigma/ce-contrib-tools) - some bash scripts to make managing our [Git](https://git-scm.com/) workflow easier
+* [ce-lightsail-launcher](https://gitlab.com/code-enigma/ce-lightsail-launcher) - a pre-prepared [cloud-init](https://cloud-init.io/) script for quickly deploying applications to [AWS Lightsail](https://aws.amazon.com/lightsail/) servers
+* [ce-provision-templates](https://gitlab.com/code-enigma/ce-provision-templates) - a growing collection of example Ansible variables for different `ce-provision` servers and infras
 * [newsletters](https://github.com/codeenigma/newsletters) - our archive of newsletters!
 
 There are also various config templates for `ce-provision` and `ce-deploy` available to browsers of our GitHub.
@@ -37,7 +37,7 @@ It would be remiss of us not to mention  is how we all got here. Since 2010 we h
 You can read more about our Drupal lives on [our Drupal profile](https://www.drupal.org/code-enigma).
 
 Drupal modules aside, you'll find some other PHP gems in our repos:
-* [ce_ldap](https://github.com/codeenigma/ce_ldap) - a [Drupal](https://www.drupal.org/) module for syncing [LDAP](https://www.openldap.org/) users on a schedule
-* [ce_localgovdrupal_config](https://github.com/codeenigma/ce_localgovdrupal_config) - a [Drupal](https://www.drupal.org/) setup config to make it quicker and easier to get [LocalGov Drupal](https://localgovdrupal.org/) up and running
-* [linotp2](https://github.com/codeenigma/linotp2) - a fork of the unmaintained `linotp-auth-simplesamlphp` project providing [SimpleSAMLphp](https://simplesamlphp.org/) support for a second factor of authentication via [LinOTP](https://www.linotp.org/)
-* [CE2FA](https://github.com/codeenigma/ce2fa) - another [SimpleSAMLphp](https://simplesamlphp.org/) module, allowing direct integration with the [Yubico](https://www.yubico.com/) API for Yubikeys
+* [ce_ldap](https://gitlab.com/code-enigma/ce_ldap) - a [Drupal](https://www.drupal.org/) module for syncing [LDAP](https://www.openldap.org/) users on a schedule
+* [ce_localgovdrupal_config](https://gitlab.com/code-enigma/ce_localgovdrupal_config) - a [Drupal](https://www.drupal.org/) setup config to make it quicker and easier to get [LocalGov Drupal](https://localgovdrupal.org/) up and running
+* [linotp2](https://gitlab.com/code-enigma/linotp2) - a fork of the unmaintained `linotp-auth-simplesamlphp` project providing [SimpleSAMLphp](https://simplesamlphp.org/) support for a second factor of authentication via [LinOTP](https://www.linotp.org/)
+* [CE2FA](https://gitlab.com/code-enigma/ce2fa) - another [SimpleSAMLphp](https://simplesamlphp.org/) module, allowing direct integration with the [Yubico](https://www.yubico.com/) API for Yubikeys
