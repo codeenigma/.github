@@ -1,5 +1,8 @@
 ## Code Enigma
 
+### 🦊 Public Service Announcement
+We are starting to migrate most of our work to GitLab due to reliability issues here on GitHub. [You can follow us over there via this link.](https://gitlab.com/code-enigma)
+
 We are [Code Enigma](https://www.codeenigma.com/), a community of creative souls and the technically brilliant, dedicated to building a better world wide web. Our GitHub is where we share things we think might be useful to everybody.
 This is mostly about supporting developers to do better work. For more information visit [ce.tools](https://ce.tools).
 To reach out you can toot at us 🦣 via [toots.codeenigma.com/@codeenigma](https://toots.codeenigma.com/@codeenigma).
