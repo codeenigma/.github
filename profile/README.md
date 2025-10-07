@@ -15,7 +15,7 @@ It provides some template projects and layouts but also allows for total customi
 This is **not** a replacement for products like `ddev`, because it simply wraps Docker to make starting and deploying a set of containers much easier.
 Consequently it's less opinionated and far more customisable.
 
-### 🚚 [ce-provision](https://github.com/codeenigma/ce-provision)
+### 🚚 [ce-provision](https://gitlab.com/code-enigma/ce-provision)
 This is a set of bash scripts and [Ansible](https://www.ansible.com/) roles for managing software on Linux servers, specifically [Debian Linux](https://www.debian.org/), though wider support may follow.
 It aims to be platform agnostic, although as [AWS partners](https://partners.amazonaws.com/partners/0010L00001pDHc8QAG/Code%20Enigma) we ship a lot of AWS automation for orchestrating infrastructure. Again, more providers may be added.
 It can work with any CI, though we typically run it from [GitLab CI](https://docs.gitlab.com/ee/ci/) using a shell runner and using the provided shell scripts to exectute Ansible and build things.
