@@ -20,7 +20,7 @@ This is a set of bash scripts and [Ansible](https://www.ansible.com/) roles for 
 It aims to be platform agnostic, although as [AWS partners](https://partners.amazonaws.com/partners/0010L00001pDHc8QAG/Code%20Enigma) we ship a lot of AWS automation for orchestrating infrastructure. Again, more providers may be added.
 It can work with any CI, though we typically run it from [GitLab CI](https://docs.gitlab.com/ee/ci/) using a shell runner and using the provided shell scripts to exectute Ansible and build things.
 
-### 🚀 [ce-deploy](https://github.com/codeenigma/ce-deploy)
+### 🚀 [ce-deploy](https://gitlab.com/code-enigma/ce-deploy)
 This is a set of bash scripts and [Ansible](https://www.ansible.com/) roles for deploying applications to servers. It works in much the same way as `ce-provision` but the roles focus on delivering software on to servers and containers.
 
 ### 🧰 Other tools
