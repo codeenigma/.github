@@ -9,19 +9,16 @@ To reach out you can toot at us 🦣 via [toots.codeenigma.com/@codeenigma](http
 
 Our main contributions are as follows:
 
-### ⌨️ [ce-dev](https://github.com/codeenigma/ce-dev)
-This is a wrapper for [Docker Compose](https://docs.docker.com/compose/) that allows you to quickly run up local development environments with [Docker](https://www.docker.com/).
-It provides some template projects and layouts but also allows for total customisation and for you to create and push your own container layouts for your projects.
-This is **not** a replacement for products like `ddev`, because it simply wraps Docker to make starting and deploying a set of containers much easier.
-Consequently it's less opinionated and far more customisable.
-
-### 🚚 [ce-provision](https://gitlab.com/code-enigma/ce-provision)
-This is a set of bash scripts and [Ansible](https://www.ansible.com/) roles for managing software on Linux servers, specifically [Debian Linux](https://www.debian.org/), though wider support may follow.
-It aims to be platform agnostic, although as [AWS partners](https://partners.amazonaws.com/partners/0010L00001pDHc8QAG/Code%20Enigma) we ship a lot of AWS automation for orchestrating infrastructure. Again, more providers may be added.
-It can work with any CI, though we typically run it from [GitLab CI](https://docs.gitlab.com/ee/ci/) using a shell runner and using the provided shell scripts to exectute Ansible and build things.
+### ⌨️ [ddev-deploy](https://gitlab.com/code-enigma/ddev-deploy)
+This is a custom container and command for [DDEV](https://ddev.com/) to allow you to use `ce-deploy` in your local DDEV web container to make sure your Ansible deployment scripts work before trying them on a server.
 
 ### 🚀 [ce-deploy](https://gitlab.com/code-enigma/ce-deploy)
 This is a set of bash scripts and [Ansible](https://www.ansible.com/) roles for deploying applications to servers. It works in much the same way as `ce-provision` but the roles focus on delivering software on to servers and containers.
+
+### 🚚 [ce-provision](https://gitlab.com/code-enigma/ce-provision)
+This is a set of bash scripts and [Ansible](https://www.ansible.com/) roles for managing software on Linux servers, specifically [Debian Linux](https://www.debian.org/), though wider support may follow.
+It aims to be platform agnostic, although as [AWS partners](https://partners.amazonaws.com/partners/0010L00001pDHc8QAG/Code%20Enigma) we ship a lot of AWS automation for orchestrating infrastructure. Again, more providers will be added, our next target is [Scaleway](https://www.scaleway.com/).
+It can work with any CI, though we typically run it from [GitLab CI](https://docs.gitlab.com/ee/ci/) using a shell runner and using the provided shell scripts to exectute Ansible and build things.
 
 ### 🧰 Other tools
 There are some other bits in here, mainly:
