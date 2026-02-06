@@ -1,5 +1,10 @@
 ## Code Enigma
 
+### Proudly sponsoring
+
+* [DDEV](https://github.com/sponsors/ddev) - a local dev stack we like to use
+* [OpenSSL](https://github.com/sponsors/openssl) - because without it there literally is no Internet
+
 ### 🦊 Public Service Announcement
 We are starting to migrate most of our work to GitLab due to reliability issues here on GitHub. [You can follow us over there via this link.](https://gitlab.com/code-enigma)
 
