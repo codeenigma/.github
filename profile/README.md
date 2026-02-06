@@ -1,6 +1,6 @@
 ## Code Enigma
 
-### Proudly sponsoring
+### 💰 Proudly sponsoring
 
 * [DDEV](https://github.com/sponsors/ddev) - a local dev stack we like to use
 * [OpenSSL](https://github.com/sponsors/openssl) - because without it there literally is no Internet
